@@ -38,7 +38,7 @@ def settings()
                 log.trace phrases
                 input "HHRoutine", "enum", title: "Routine", required: true, options: phrases, refreshAfterSelection:true
             }
-            
+         }   
            
            section("When there is power consumed by this device") {
             input "switch1", "capability.powerMeter", title: "Where?"
