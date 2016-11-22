@@ -47,7 +47,7 @@ def settings()
             input "startTime", "time", title: "Start time?", required: true
             input "endTime", "time", title: "End time?", required: true
         }
-        def phrases = location.helloHome?.getPhrases()*.label
+      
         if (phrases) 
         {
             phrases.sort()
